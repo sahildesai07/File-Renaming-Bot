@@ -41,7 +41,7 @@ def insert(chat_id):
     user_id = int(chat_id)
     user_det = {"_id": user_id, "file_id": None, "caption": None, "daily": 0, "date": 0,
                 "uploadlimit": 5368709120, "used_limit": 0, "usertype": "Free", "prexdate": None,
-                "metadata": False, "metadata_code": "By @Madflix_Bots"}
+                "metadata": False, "metadata_code": "By @ultroidxTeam"}
     try:
         dbcol.insert_one(user_det)
     except:
@@ -145,6 +145,6 @@ def find_one(id):
 
 # Jishu Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
+# Telegram Channel @ultroidxTeam
 # Back-Up Channel @JishuBotz
 # Developer @JishuDeveloper & @MadflixOfficials
