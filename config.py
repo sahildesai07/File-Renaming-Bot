@@ -3,10 +3,10 @@ import os
 
 
 # Required Variables Config
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+API_ID = int(os.environ.get("API_ID", "22505271"))
+API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7806399623:AAGRmcQGR-3IiD1wY_npyk7deaXZOD_6zr4")
+ADMIN = int(os.environ.get("ADMIN", "6695586027"))
 
 
 # Premium 4GB Renaming Client Config
@@ -14,17 +14,17 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "-1002108419450")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002405500273"))
 
 
 # Mongo DB Database Config
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "madflixbotz")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://FlikOP:FlikOP@cluster0.m4a2a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "phdlust")
 
 
 # Other Variables Config
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/5lk.jpg")
 
 
 
